@@ -75,5 +75,4 @@ If you are interested in contributing, please let us know (on Github), we would 
 create_file_input()
 
 if __name__ == "__main__":
-    # initialize_data(Path("~/Documents/data/amlb/").expanduser())
-    initialize_data(Path("~/repositories/amlb-results/data/").expanduser())
+    initialize_data(Path("data/").expanduser())
