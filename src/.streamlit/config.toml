@@ -1,0 +1,10 @@
+[theme]
+layout="wide"
+base="light"
+initial_sidebar_state="expanded"
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+magicEnabled = false

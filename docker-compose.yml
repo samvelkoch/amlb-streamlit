@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  # Define the backend service
+  frontend:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      target: main
+    command: python -m streamlit run src/app.py --server.address 0.0.0.0 --server.port 5175
+    ports:
+      - "5175:5175"
+    restart: on-failure:5
+    volumes:
+      - .:/app
+      # This will point to a public file in the future, but for now this makes
+      # local iteration just a bit easier.
+      - ~/repositories/amlb-results/data:/data
