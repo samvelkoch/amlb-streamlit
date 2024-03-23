@@ -51,7 +51,7 @@ st.write("We are still working on adding the other figures.")
 st.write(
     """
     The code and data of this app is available at https://github.com/pgijsbers/amlb-streamlit.
-    The raw data is available on our minio server S3 bucket https://openml1.win.tue.nl/automlbenchmark 
+    The raw data is available on our minio server S3 bucket https://openml1.win.tue.nl/automlbenchmark2023 
     and the preprocessing notebooks are available at https://github.com/pgijsbers/amlb-results. 
     """)
 
