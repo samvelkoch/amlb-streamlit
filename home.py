@@ -37,14 +37,16 @@ please open a <a style="color:cyan;" href="#">Github issue</a>. We welcome contr
     header="Important",
 )
 
-st.write("This app includes all the figures of the paper, with some"
+st.write("This app includes most of the figures of the paper, with some"
          " additional controls which let you look at specific aspects of the data:")
-st.page_link("home.py", label=" * Figure 1: Benchmarking Suite")
+# st.page_link("home.py", label=" * Figure 1: Benchmarking Suite")
 st.page_link("pages/cd_diagram.py", label=" * Figure 2: Critical Difference Diagrams")
 st.page_link("pages/performance.py", label=" * Figure 3 and 4: Scaled Performance Boxplots")
-st.page_link("home.py", label=" * Figure 5: Bradley-Terry Trees")
+# st.page_link("home.py", label=" * Figure 5: Bradley-Terry Trees")
 st.page_link("pages/inference.py", label=" * Figure 6 and 7: Model Inference Time")
 st.page_link("pages/stability.py", label=" * Figure 8 and 9: Errors and training duration.")
+
+st.write("We are still working on adding the other figures.")
 
 st.write(
     """
