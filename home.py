@@ -33,7 +33,7 @@ read the paper before drawing any conclusions.
 
 write_card(
     body= """This app was not part of the JMLR peer review process. If you find any mistakes,
-please open a <a href="#">Github issue</a>. We welcome contributions.""",
+please open a <a style="color:cyan;" href="#">Github issue</a>. We welcome contributions.""",
     header="Important",
 )
 
