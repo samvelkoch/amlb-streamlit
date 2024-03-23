@@ -46,7 +46,12 @@ st.page_link("home.py", label=" * Figure 5: Bradley-Terry Trees")
 st.page_link("pages/inference.py", label=" * Figure 6 and 7: Model Inference Time")
 st.page_link("pages/stability.py", label=" * Figure 8 and 9: Errors and training duration.")
 
-st.write("""The data this app visualizes is available at ___ and ___.""")
+st.write(
+    """
+    The code and data of this app is available at https://github.com/pgijsbers/amlb-streamlit.
+    The raw data is available on our minio server S3 bucket https://openml1.win.tue.nl/automlbenchmark 
+    and the preprocessing notebooks are available at https://github.com/pgijsbers/amlb-results. 
+    """)
 
 write_card(
     body= "Click the three stacked dots in the top right, then navigate to"
